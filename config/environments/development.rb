@@ -51,5 +51,5 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
 
-  config.x.oauth.jwt_secret = ENV['HMAC_SECRET']
+  config.x.oauth.jwt_secret = 'secret'
 end
