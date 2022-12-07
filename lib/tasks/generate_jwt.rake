@@ -12,7 +12,7 @@ task :generate_valid_jwt do
 
     puts "Run this command once you've started rails"
     jwt = JWT.encode payload, ENV['HMAC_SECRET'], 'HS256'
-    puts "curl -v -H 'Authorization: Bearer #{jwt}' http://localhost:4000/messages"
+    puts "curl -H 'Authorization: Bearer #{jwt}' http://localhost:4000/messages"
 end
 
 desc 'generates an invalid JWT'
