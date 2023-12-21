@@ -1,3 +1,5 @@
+**This repo is out of date and is archived. Check out [an updated tutorial on using FusionAuth with Ruby on Rails](https://fusionauth.io/docs/quickstarts/quickstart-ruby-rails-api) or [the updated GitHub repository](https://github.com/FusionAuth/fusionauth-quickstart-ruby-on-rails-api).**
+
 # Example: Using JWTs to protect a rails based API
 
 This project is a Rails6 application that illustrates how to protect an API with a JWT. The JWT can be generated using a JWT library, as in this case, or by an OAuth server such as [FusionAuth](https://fusionauth.io/)
